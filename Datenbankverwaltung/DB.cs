@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data.OleDb;
 
 namespace Datenbankverwaltung {
@@ -11,32 +11,6 @@ namespace Datenbankverwaltung {
             OleDbDataReader reader = new OleDbCommand(query, DbConnection).ExecuteReader();
 
             return reader;
-        }
-
-        public class Artikel 
-
-        public class Rechnung {
-            public readonly int RechNr;
-            public int FirmenNummer;
-            public DateTime Datum;
-            public string Firmenname;
-            public string zH;
-            public string Straße;
-            public string Tel;
-            public int PLZ;
-            public string Ort;
-            public string Fax;
-
-            public Rechnung(int RechNr) {
-                this.RechNr = RechNr;
-            }
-
-            static Rechnung GetByNr(int rnr) {
-                DB.SqlRead("");
-
-                Rechnung rechnung = new Rechnung();
-                return rechnung;
-            }
         }
     }
 }
