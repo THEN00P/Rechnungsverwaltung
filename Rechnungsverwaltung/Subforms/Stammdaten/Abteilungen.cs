@@ -8,9 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Rechnungsverwaltung {
-    public partial class Form1 : Form {
-        public Form1() {
+namespace Rechnungsverwaltung.Subforms.Stammdaten
+{
+    public partial class Abteilungen : Form
+    {
+        public Abteilungen()
+        {
             InitializeComponent();
         }
     }

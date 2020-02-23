@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rechnungsverwaltung", "Rech
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datenbankverwaltung", "Datenbankverwaltung\Datenbankverwaltung.csproj", "{61295681-7269-452B-BDE4-140EF59EEC09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZusatzComponents", "ZusatzComponents\ZusatzComponents.csproj", "{8155E9BB-975D-44C3-A08A-FE08504C1F7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{61295681-7269-452B-BDE4-140EF59EEC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61295681-7269-452B-BDE4-140EF59EEC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61295681-7269-452B-BDE4-140EF59EEC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8155E9BB-975D-44C3-A08A-FE08504C1F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8155E9BB-975D-44C3-A08A-FE08504C1F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8155E9BB-975D-44C3-A08A-FE08504C1F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8155E9BB-975D-44C3-A08A-FE08504C1F7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
